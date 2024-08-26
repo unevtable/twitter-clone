@@ -50,7 +50,7 @@ function handleTweetBtnClick() {
 
   if (tweetInput.value) {
     tweetsData.unshift({
-      handle: `@Scrimba`,
+      handle: `@unevtable`,
       profilePic: `images/profilepic.jpg`,
       likes: 0,
       retweets: 0,
