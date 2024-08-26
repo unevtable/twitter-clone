@@ -45,9 +45,8 @@ function handleReplyClick(replyId) {
   document.getElementById(`replies-${replyId}`).classList.toggle('hidden');
 }
 
+const tweetInput = document.getElementById('tweet-input');
 function handleTweetBtnClick() {
-  const tweetInput = document.getElementById('tweet-input');
-
   if (tweetInput.value) {
     tweetsData.unshift({
       handle: `@unevtable`,
